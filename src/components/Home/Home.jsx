@@ -30,7 +30,7 @@ export default function Home() {
                 <h3>Olá, meu nome é</h3>
                 <h1>Tassio Neves</h1>
                 <h3>E sou um <span ref={el}>Desenvolvedor Web</span></h3>
-                <p>Aluno formando em Engenharia da computação na Universidade Federal do Recôncavo da Bahia.</p>
+                <p>Bacharel em Engenharia de computação na Universidade Federal do Recôncavo da Bahia.</p>
                 <div className="social-media">
                     <a  href="https://www.facebook.com/tassions" target='_blank' rel='noreferrer' ><i className='bx bxl-facebook'></i></a>
                     <a href="https://www.instagram.com/tassio.neves/"  target='_blank'><i className='bx bxl-instagram-alt'></i></a>
