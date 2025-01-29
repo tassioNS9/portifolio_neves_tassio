@@ -36,7 +36,7 @@ export default function Home() {
                     <a href="https://www.instagram.com/tassio.neves/"  target='_blank'><i className='bx bxl-instagram-alt'></i></a>
                     <a href="https://www.linkedin.com/in/tassio-neves-santos-51aa59180/"  target='_blank'><i className='bx bxl-linkedin'></i></a>
                 </div>
-                <a href="download/CurriculoTassioNeves2024.pdf" className='btn' download="Curriculo Tassio Neves">Download CV</a>
+                <a href="download/CurriculoTassioNeves2025.pdf" className='btn' download="Curriculo Tassio Neves">Download CV</a>
             </div>
 
             <div className="home-img">

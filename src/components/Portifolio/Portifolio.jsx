@@ -2,6 +2,7 @@ import './Portifolio.css'
 import web_store from "/public/assets/web-store-image.png"
 import logo_android from "/public/assets/logo-android.jpg"
 import finance_image from "/public/assets/finance_image.png"
+import ordem_livros from "/public/assets/ordem-livros.png"
 import tn_lib from "/public/assets/tn_lib.png"
 import tnt_flix from "/public/assets/tnt_flix.png"
 import logo_burguer from "/public/assets/logo_burger.png"
@@ -50,6 +51,15 @@ export default function Portifolio() {
                 </div>
 
                 <div className="portifolio-box">
+                    <img src={ordem_livros} alt="logo-android" />
+                    <div className="portifolio-layer">
+                        <h4>Ordem dos Livros</h4>
+                        <p>Projeto que demostra a ordem Cronológica dos livros</p>
+                        <a href="https://ordemlivrostn.netlify.app/series/harry-potter" target="_blank"><i className='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+
+                <div className="portifolio-box">
                     <img src={tn_lib} alt="logo-android" />
                     <div className="portifolio-layer">
                         <h4>Filmes</h4>
@@ -62,7 +72,7 @@ export default function Portifolio() {
                     <img src={capputeeno} alt="capputeeno" />
                     <div className="portifolio-layer">
                         <h4>Capputeeno</h4>
-                        <p>Projeto web de um eccommerce de canecas e camisas ainda em desenvolvimento</p>
+                        <p>Projeto web de um eccommerce de canecas e camisas</p>
                         <a href="https://github.com/tassioNS9/ecommerce-capputeeno" target="_blank"><i className='bx bx-link-external'></i></a>
                     </div>
                 </div>
