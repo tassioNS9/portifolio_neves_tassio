@@ -59,7 +59,7 @@ export default function Home() {
           </a>
         </div>
         <a
-          href="download/CurriculoTassioNeves2025.pdf"
+          href="download/CurriculoTassioNeves2026.pdf"
           className="btn"
           download="Curriculo Tassio Neves"
         >

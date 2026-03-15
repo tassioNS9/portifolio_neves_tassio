@@ -1,77 +1,79 @@
-import './Header.css'
-import { useState } from 'react';
+import "./Header.css";
+import { useState } from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
 
 export default function Header() {
-    const [toggle, setToggle] = useState(false);
+  const [toggle, setToggle] = useState(false);
 
-    function handleclick() {
-       setToggle(!toggle)
+  function handleclick() {
+    setToggle(!toggle);
+  }
 
-    }
+  const scrollToTop = () => {
+    scroll.scrollToTop();
+  };
 
-    const scrollToTop = () => {
-        scroll.scrollToTop();
-    };
+  return (
+    <header className="header">
+      <a onClick={scrollToTop} className="logo">
+        Tassio Neves
+      </a>
 
-    return (
-        <header className="header">
-            <a onClick={scrollToTop} className="logo">Tassio Neves</a>
+      <i
+        onClick={handleclick}
+        className={toggle ? "bx bx-x" : "bx bx-menu"}
+        id="menu-icon"
+      ></i>
 
-            <i onClick={handleclick} className={ toggle ? 'bx bx-x' : 'bx bx-menu' }id="menu-icon"></i>
+      <nav className={toggle ? "navbar ativar" : "navbar"}>
+        <Link
+          onClick={() => setToggle(false)}
+          activeClass="active"
+          to="home"
+          spy={true}
+          smooth={true}
+          offset={-60}
+          duration={500}
+        >
+          Home
+        </Link>
 
-            <nav className={toggle ? "navbar ativar" : "navbar"} >
- 
-                <Link
-                onClick={()=>setToggle(false)}
-                    activeClass="active"
-                    to="home"
-                    spy={true}
-                    smooth={true}
-                    offset={-60}
-                    duration={500}
-                >
-                    Home
-                </Link>
+        <Link
+          activeClass="active"
+          to="about"
+          spy={true}
+          smooth={true}
+          offset={-60}
+          duration={500}
+          onClick={() => setToggle(false)}
+        >
+          Sobre
+        </Link>
 
+        <Link
+          activeClass="active"
+          to="services"
+          spy={true}
+          smooth={true}
+          offset={-60}
+          duration={500}
+          onClick={() => setToggle(false)}
+        >
+          Tecnologias
+        </Link>
 
-                <Link
-                    activeClass="active"
-                    to="about"
-                    spy={true}
-                    smooth={true}
-                    offset={-60}
-                    duration={500}
-                    onClick={()=>setToggle(false)}
-                >
-                    Sobre
-                </Link>
-
-
-                <Link
-                    activeClass="active"
-                    to="services"
-                    spy={true}
-                    smooth={true}
-                    offset={-60}
-                    duration={500}
-                    onClick={()=>setToggle(false)}
-                >
-                    Tecnologias
-                </Link>
-
-                <Link
-                    activeClass="active"
-                    to="portifolio"
-                    spy={true}
-                    smooth={true}
-                    offset={-60}
-                    duration={500}
-                    onClick={()=>setToggle(false)}
-                >
-                    Portifolio
-                </Link>
-{/* 
+        <Link
+          activeClass="active"
+          to="portifolio"
+          spy={true}
+          smooth={true}
+          offset={-60}
+          duration={500}
+          onClick={() => setToggle(false)}
+        >
+          Projetos
+        </Link>
+        {/* 
                 <Link
                     activeClass="active"
                     to="contact"
@@ -83,9 +85,7 @@ export default function Header() {
                 >
                     Contato
                 </Link>  */}
-                
-            </nav>
-
-        </header>
-    )
+      </nav>
+    </header>
+  );
 }
