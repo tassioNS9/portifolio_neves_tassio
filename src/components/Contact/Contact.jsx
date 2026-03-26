@@ -13,7 +13,7 @@ export default function Contact() {
         "service_vzsyg4x",
         "template_tyw4d4j",
         form.current,
-        "Apdofq8oJZ3g3vbx6",
+        "Oblr-mKvudJ0pnYyX",
       )
       .then(
         (result) => {
@@ -87,6 +87,17 @@ export default function Contact() {
         ></textarea>
         <input className="btn" type="submit" value="Enviar Menssagem" />
       </form>
+
+      {/* <div className="services-box">
+        <h3>ooooi</h3>
+        <i className="bx bx-map"></i>
+        <i className="bx bx-phone"></i>
+        <i className="bx bx-envelope-open"></i>
+        <p>ooooii</p>
+      </div>
+      <div className="services-box">
+        <h3>ooooi</h3>
+      </div> */}
     </section>
   );
 }
