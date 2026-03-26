@@ -1,10 +1,10 @@
 import "./About.css";
-import logo from "/public/assets/logo.jpg";
+import logo from "/assets/logo-about.png";
 export default function About() {
   return (
     <section className="about" id="about">
       <div className="about-img">
-        <img src={logo} alt="logo" />
+        <img src={logo} alt="logo-about" />
       </div>
       <div className="about-content">
         <h2 className="heading">
@@ -12,14 +12,18 @@ export default function About() {
         </h2>
         <h3>Desenvolver FullStack!</h3>
         <p>
-          Sou um engenheiro de software com foco em desenvolvimento full stack,
-          apaixonado por construir soluções escaláveis, modernas e bem
-          arquitetadas. Me apaixonei por programação durante a pandemia onde
-          pude me dedicar com mais facilidade aos estudos, com isso pude me
-          destacar na faculdade abrindo para minha uma oportunidade como
-          bolsista em um projeto onde pude aprimorar ainda mais meus
-          conhecimentos além de ajudar meus colegas durante o projeto. Percebi
-          que podia personalizar qualquer coisa apenas escrevendo código.
+          Bacharel em Ciências Exatas e Tecnológicas e Engenharia da Computação,
+          desenvolvedor Full Stack, com mais de 4 anos de experiência.
+          Desenvolvo aplicações que vão do backend com APIs bem estruturadas ao
+          frontend, sempre preocupado com organização, principios de SOLID,
+          desempenho e experiência do usuário. Gosto de entender o problema como
+          um todo antes de escrever a primeira linha de código. Meu objetivo é
+          evoluir continuamente como profissional de tecnologia, contribuindo
+          para projetos desafiadores e inovadores, especialmente em ambientes
+          que valorizam arquitetura, qualidade de software e impacto real. Se
+          você estiver procurando um Desenvolvedor Full Stack dedicado e com
+          experiência em JS, TS,React.js, Node, Next.js ficarei feliz em
+          contribuir com minhas habilidades e conhecimentos para sua equipe.
         </p>
       </div>
     </section>
