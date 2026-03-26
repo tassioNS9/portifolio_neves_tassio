@@ -73,18 +73,18 @@ export default function Header() {
         >
           Projetos
         </Link>
-        {/* 
-                <Link
-                    activeClass="active"
-                    to="contact"
-                    spy={true}
-                    smooth={true}
-                    offset={-60}
-                    duration={500}
-                    onClick={()=>setToggle(false)}
-                >
-                    Contato
-                </Link>  */}
+
+        <Link
+          activeClass="active"
+          to="contact"
+          spy={true}
+          smooth={true}
+          offset={-60}
+          duration={500}
+          onClick={() => setToggle(false)}
+        >
+          Contato
+        </Link>
       </nav>
     </header>
   );
