@@ -6,7 +6,7 @@ import usf_image from "/assets/usf_image.png";
 import mcdonalds from "/assets/mcdonalds.png";
 import trips from "/assets/trips.png";
 import aparatus from "/assets/aparatus.png";
-
+import bewear from "/assets/bewear.png";
 export const services = [
   {
     title: "Node",
@@ -98,6 +98,12 @@ export const projects = [
     description: "Uma plataforma de busca e reservas de viagens estilo AirBNB ",
     imgUrl: trips,
     link: "https://fsw-trips-tau.vercel.app/",
+  },
+  {
+    title: "Ecommerce Bewear",
+    description: "Ecommerce de Roupas e acessórios!",
+    imgUrl: bewear,
+    link: "https://bewear-ten.vercel.app/",
   },
   {
     title: "Mcdonald's",

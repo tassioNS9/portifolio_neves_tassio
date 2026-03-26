@@ -1,5 +1,5 @@
 import "./Portifolio.css";
-import { projects } from "../../constants/contants";
+import { projects } from "../../constants/constants";
 
 export default function Portifolio() {
   return (

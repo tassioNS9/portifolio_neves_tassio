@@ -1,5 +1,5 @@
 import "./Services.css";
-import { services } from "../../constants/contants";
+import { services } from "../../constants/constants";
 export default function Services() {
   return (
     <section className="services" id="services">
