@@ -4,7 +4,7 @@
   align-items: center;
   flex-wrap: wrap;
   padding: 2rem 9%;
-  background-color: #11071f;
+  background-color: var(--second-bg-color);
 }
 
 .footer-text p {
