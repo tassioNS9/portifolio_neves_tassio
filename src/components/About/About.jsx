@@ -10,7 +10,7 @@ export default function About() {
         <h2 className="heading">
           Sobre <span>Mim</span>
         </h2>
-        <h3>Desenvolver FullStack!</h3>
+        <h3>Desenvolvedor FullStack!</h3>
         <p>
           Bacharel em Ciências Exatas e Tecnológicas e Engenharia da Computação,
           desenvolvedor Full Stack, com mais de 4 anos de experiência.
