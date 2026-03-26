@@ -1,5 +1,5 @@
 import "./Home.css";
-import logo_home from "/public/assets/logo-home.png";
+import logo_home from "/assets/logo-home.png";
 import Typed from "typed.js";
 import { useEffect, useRef } from "react";
 
@@ -35,6 +35,7 @@ export default function Home() {
           Bacharel em Engenharia de computação na Universidade Federal do
           Recôncavo da Bahia.
         </p>
+        <p>Pós graduação em Analise e desenvolvimento de sistemas</p>
         <div className="social-media">
           <a
             href="https://www.facebook.com/tassions"
